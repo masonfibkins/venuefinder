@@ -85,9 +85,32 @@ body{
 }
 
 @media screen and (max-width: 375px) {
+  body{
+    height: auto;
+    background-repeat: no-repeat;
+  }
+
   img{
     width: 70px;
     height: 70px;
   }
+ 
+  .display-4{
+    font-size: 33px;
+  }
+  .lead{
+    font-size: 18px;
+  }
+  .page-footer{
+    display: inline;
+    border:none;
+  }
+ .col-4{
+  width: 100%;
+  margin: 20px;
+  margin-right: 140px;
+ }
+ 
+  
 }
   
